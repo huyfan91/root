@@ -1,0 +1,43 @@
+//-------------------------------------------backend_graphql
+
+npm init -y
+npm install --dev nodemon @babel/core @babel/node @babel/preset-env
+npm install mongoose jsonwebtoken bcrypt express graphql cors apollo-server apollo-server-express
+
+.babelrc (root)
+{
+  "presets": ["@babel/preset-env"]
+}
+
+//-------------------------------------------backend_express
+
+npx express-generator
+npm install
+set DEBUG=imw-shop-backend:*
+
+"dev": "nodemon ./bin/www --exec babel-node --presets babel-preset-env"
+
+npm install nodemon babel-cli babel-core babel-node babel-loader babel-preset-env --save-dev
+npm install cors mongodb
+--npm install lodash
+npm run dev
+
+//-------------------------------------------frontend
+@apollo/react-hooks apollo-boost @apollo/react-ssr graphql react react-dom
+
+ext install npm script runner
+node index.js
+npm init
+npm start
+
+mkdir backend
+cd backend
+
+npm install request --save
+npm install mongoose --save
+
+npm install express express-handlebars express-session dotenv body-parser --save
+npm install passport passport-local --save
+npm install sequelize pg pg-hstore --save
+
+
